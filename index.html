@@ -1,5 +1,44 @@
 <!DOCTYPE html>
 <html>
+  <!-- 
+
+;<;(<_::~:~:~~~_~__~__~._.._....................... ` ......._`` ` _.~~~~~~~~~~~~~~~:~~:(<:;<><+?11=
++;1<;<<::::~:_::_:~~__~____..~_...... .-. ..._.._..__~..~._.   .._- - _~~~~~~~__:__:<:::;<+<+<+z=1zz
+??1+<?<;::<~:~~<:_~~_~___.._._~..___._... -.__...._.___~_~~__:_(<<~<---..~__~::::(<::_~;;<<>+??11ztz
+??>>+<;;:(:::~~_~~~~~_~__.__~.__..._..._.......-.~__~_~~~:___(<(?<<1++++<<<;::___<;::;;<;<<>++zz1zll
+==z++?;;;;::__~<~~~~~__._~_...__....~_.~__...~..~._..~~_____(++>(+<1z<<<1z__-~<::::;;;;>>>>?z?111?1z
+Oz11??<<;;;:(:_~~~___~~~~~~~~..~......__~__~.....~~~._..___~v1z+-(+z><<<(1+z1<__(:<;(<;>>>>+>+1zzzrO
+lll==1z??>>;<<::__~____~_~__~~................_.....____~_:(<+(<;~+<-_(<zO111z<<;;:;:;;<;>?+zzwOOwOX
+XwOOzOv1?+<>><<__~_~~~~_~_~~..~~........._-_-...~...(::(_(((<~<:(1z1l111<Izzv+=<;<:;;><<<+1zzzlOuuXw
+VWXwOzlt11+?++++1z<(<~_~~~~.._...~......._~_`~......_<((__~(<:~(+(<+zzZ++jzO11<;>><><;>+?1z==zzvwXXS
+pf0z+jx=zlOwtOOO-1<<<<<:___~~~-....~.....__._.~_.._~~<<(<<(_<~~_~!__zwwXXOOz<<++>>>>>;+?<?z1==<?<?OX
+WWWkw0G+x+1vZv1+?_(<<:<<~~__~~_...~..~..........~__~_<<<;(<~_.__._:<1wwZwXzz+zz+<<<<><<?<+==z<<<++zO
+HfUXUXZVwOzI<<(<(z+zz<:~~<~~~.~............~~..___~~((<<<<~.~~__~_<:<?zXwwXlOOv1<?<<>?+?++<+OzzO&wXX
+kXywZwOOOvz<___<+z1++(-__-_<~~.~~.. ......~_.....~_`~~_<<<~~~~_~_~::>?+wXuZz1zv1><<1+<++==zzvOOwXw&X
+ZXWwXOVzwZz!_~<<j1z<++1<~__~~-._._`    ``  ..... -.__:.__~.~_~~~<_-(>?1dZXOwI1z11+??111++1z++1z+<;?T
+WkWXwzZOzw++.-(zOO1I<<<<<__~...__ ` .`..`..``.`..` ._.__<~.~~~~~::<<<+jOwVZzz1=z==?1+1??>1zOOOtzzwdX
+HWWfXXZOOvOz1zz<1O>++~___~~____ .........``..`...`  _~.~~.~_~~~:~:(++zOdSOz1tC+tz==11>1+zllzOtzzuXyZ
+ZpWUkZVOzzO++zz1v1v1<~~~`.__~._._-......... . ``....._~.~_~~~:_~:<:(+zVw0dXXwzOO1=1?11++=lzzzOOOwXXX
+XkWpkXZZOwzz+zOOz<<<~<____~_~__~~........``. ..........._~~~_~~<<;;+z1JXVzzXwXIzzll1=z?lO+ztOtOwwuzX
+HWkWWWZXXrvOO?><<<~<:~~__<__.__.~.-._...........~..-.._~___:~~:<><<1wZwZXZXZ1AXVOOzvz=zzOOtOtOvvXzXX
+qHkpfWfXXZZ7<_~<<++<__~~:~__~_.~._............~..~~.~~_~___:((>+>=+zrZwwOO+zZ1?CzzIzzl=lzOzvOvvOrwXW
+mHWWpWXZyI<+=1v1+z1z<+_~~~___~~_~_~~~_..~_~~~_~~~_~~_~~_~_<(;<+ztzOzOwWkydUwwuwOOOtllz=lOOwtOzwwuXZW
+qkWWkWpS<+z11z+<<+??1<;(~____:~_~_____~~.-___~~~._~~~~~~:_((+<zwZwIzOwXXHRWkkoOZIzOOOOzzzltltwwZjZXf
+gqHWHDzIvW0+<?1z>++z<<<<_<(-:~~:~___~~~_____~~~~:~_~~_(:;+<1=wwXVzZ1zXXWUWkfW0VIzvz1OtzlOzrvzwwwedWX
+@ggHmKv0z+z<1+++OzOOzzzz(<<<<~:__::~~~::~:~~~~_:~~_:<<<>??zzZO1XZCn+COwuWZUXXwwtO==lltwrwtOzzwAdUVWf
+@ggmgmqkwuIzzOOz<>?11zzI+(<<(<::~____<::~:~~::~:_~_:~<+1z1vwwkAyOywwwXXwXXuZU0vwOOtzOwzwvrwuuZZyXffW
+@H@@gggqHZwwuyojO=Oz<??+1<<<(:::<<:_::::<_~<:::<~_::~(1<1lwwukXVUOwzOdyUXWXXwzvrwvvwwzuXwwXXXXyWyWWb
+@@@@@@@HHwwXWXkwwXwtzz1z;?<;<;;::(:(::::<;:<:::::::~((1zzXwXpWWWWWZXwwwWX0OzXZwXwwwXwXZZZXXXXyfpWkpH
+MMHH@@@HqkkWwUWWWUrOzOIzz+z+><;;;;<;<<;>;:<<<(::(<__(;?zWWWHWHWHHkwdkXswXuAOXXXXXkWfWXWWZyXWVWWfWkWb
+#HHMHH@HHHHVWWbWZwXXOOI11?z?zzz+>><<1z+<<<;<(;;;<;;;(<zOUXWkWkkHWHkHVUVXWWVyXWWpWHWWWWyXyyyWXXWpWkkk
+####HHM@HgHgqqHpX00tIllzl1zzzOlz+>++zOz<>>>;<;<<<<<(>?zzzwXXWkWqHZWHWXXwXXWWWWWkWWKWfWWXyXWWqWHkkqHq
+N#NMMHHHMHHHHHHW0OOOwyOOv1OtOzwzz?=zOIz<+><<<<<<;;::;1+OWUwSwsXXzSdXkWWWpWHkWHHHgmHHHHWkOVWWbkkkqHmm
+MNNN##HHHHHMMHWZuZXWWwkZOzzO1<<<+=1z1?><<<>=<><<><<<(+zZWWQkkwXwyUXWWWgHHM@HHH@MM@gggHbbkWHWqqqqHHqH
+MMMNNNN#HH@qHHWXkXWkyXUOzzz=z1zz?=11z??>?=1?++<><><<<1zdWHmHkHkkHHHHHH@@@MMMH@gM@MHHkbWmgqqHmmmgmggg
+MMMMMNMMMMMHMMHHWXXHUUXZ=lz1z==z=lzz11??11=z1z><<(z1+1zXkWMMMMMHHHH@HMMMMHMQMHHMHHHMg@@@HggggHHHkWkH
+MMNMNMN#MMMMHHdkWXXXWXkVwOl1z+=lzlOOtz1?=?+++><;<>+??+OdHWHM#H#MMMM#MMM@MHM#MMHMHMMg@HH@@@g@gH@@M@@H
+
+   -->
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="./static/css/style.css" />
@@ -43,7 +82,6 @@
       sizes="57x57"
       href="https://wave-destination.github.io/wave-destination/static/image/favicon.png"
     />
-    <!-- GA -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -107,9 +145,10 @@
             <h2 class="container-info-subtitle subtitle">会期</h2>
             <p class="container-info-text">
               2022.4.28（木） - 5.2（月）<br />
-              12:00 - 19:00<br />
-              （最終日17:00まで）
+              12:00 - 19:00（最終日17:00まで）
             </p>
+            <h2 class="container-info-subtitle subtitle">公開講評会</h2>
+            <p class="container-info-text">2022.5.1（日） 15:00 -</p>
             <h2 class="container-info-subtitle subtitle">場所</h2>
             <p class="container-info-text">
               美学校スタジオ<br />
@@ -154,10 +193,22 @@
             <h3 class="container-artists-subtitle subtitle">
               ぅょぅょバード - uxouxoBIRD
             </h3>
-            <!-- <p class="container-artists-text">
-            <a href="" target="_blank" rel="noopener noreferrer">link</a>
-            <br />
-          </p> -->
+            <p class="container-artists-text">
+              <a
+                href="https://twitter.com/mayoi_mayoi_mmm"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+              /
+              <a
+                href="https://www.instagram.com/mayoi_mayoimmm/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+              <br />
+            </p>
             <h2 class="container-artists-subtitle subtitle">
               小倉久典 - Hisanori Ogura
             </h2>
